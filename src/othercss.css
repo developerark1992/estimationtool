@@ -1,0 +1,45 @@
+.clicked {
+    border: 2px solid #3b82f6; /* Tailwind blue-500 color */
+    border-radius: 12px;
+}
+
+
+ /* Container with custom scrollbar */
+ .scrollable-container {
+    height: 550px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+/* Webkit Browsers (Chrome, Safari) */
+.scrollable-container::-webkit-scrollbar {
+    width: 10px; /* Set scrollbar width */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+    border-radius: 10px; /* Rounded track */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #007DFF; /* Set thumb color */
+    border-radius: 10px; /* Rounded thumb */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3; /* Darker color when hovered */
+}
+
+/* Firefox */
+.scrollable-container {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #007DFF transparent; /* Thumb color and track color */
+}
+
+.tab-btn {
+transition: all 0.3s ease;
+}
+
+.active-tab {
+font-weight: bold;
+}

@@ -1,6 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import Images from "../assets/image"; // Ensure the path is correct
+import stepData from "../page.json"
+import { useNavigate } from "react-router-dom"; // Import useNavigate
+import Images from "../assets/image"; // Make sure the path is correct
 
 const StepTwo = () => {
   const navigate = useNavigate(); // Initialize the useNavigate hook
@@ -73,138 +74,40 @@ const StepTwo = () => {
             </h1>
 
             <div className="scrollable-container overflow-x-auto grid grid-cols-3 gap-4">
-              {/* Item 1 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page5}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">Home</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      The main landing page introducing your site.
-                    </p>
-                  </div>
-                </div>
-              </div>
+  {stepData.steps["3"]
+    .sort((a, b) => {
+      // First, make sure the "Home" step is at the beginning
+      if (a.title === "Home") return -1;
+      if (b.title === "Home") return 1;
 
-              {/* Item 2 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page4}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">Service</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      Details of the services you offer.
-                    </p>
-                  </div>
-                </div>
-              </div>
+      // Then, sort the rest alphabetically by title
+      return a.title.localeCompare(b.title);
+    })
+    .map((step, index) => (
+      <div
+        key={index}
+        className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
+        onClick={toggleBorder}
+      >
+        <img
+          src={step.image}
+          alt={step.title}
+          className="mb-4 w-full object-cover rounded-xl"
+        />
+        <div className="p-4">
+          <div className="relative flex flex-row items-center">
+            <p className="text-left font-semibold text-base text-gray-900">{step.title}</p>
+          </div>
+          <div className="relative flex flex-row items-center">
+            <p className="text-left text-sm text-gray-400">
+              {step.description}
+            </p>
+          </div>
+        </div>
+      </div>
+    ))}
+</div>
 
-              {/* Item 3 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page1}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">About Us</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      Information about your company or organization.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Item 4 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page2}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">Contact Us</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      A page with contact information and a form.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Item 5 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page6}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">Products</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      Showcase the products you sell.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Item 6 */}
-              <div
-                className="bg-white border-2 border-gray-200 rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl p-2"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.Page3}
-                  alt="Image 1"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left font-semibold text-base text-gray-900">Blog</p>
-                  </div>
-                  <div className="relative flex flex-row items-center">
-                    <p className="text-left text-sm text-gray-400">
-                      A blog page to post articles and updates.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

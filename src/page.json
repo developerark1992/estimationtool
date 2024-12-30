@@ -1,0 +1,341 @@
+{
+    "steps": {
+      "1": [
+        {
+          "title": "Create a New Website",
+          "price": "99",
+          "description": "Start from scratch to build a unique, customized website tailored to your needs.",
+          "image": "http://127.0.0.1:5500/src/assets/img/Informative-Interactive.webp",
+          "svgicon": "http://127.0.0.1:5500/src/assets/img/newweb.svg"
+        },
+        {
+          "title": "Revamp My Existing Website",
+          "price": "99",
+          "description": "Give your current website a fresh, modern look while retaining key elements.",
+          "image": "http://127.0.0.1:5500/src/assets/img/revamp.png",
+          "svgicon": "http://127.0.0.1:5500/src/assets/img/revamp.svg"
+        }
+      ],
+      "2": [
+        {
+          "title": "Informative & Interactive",
+          "price": "0",
+          "description": "For sites offering information, resources and other features",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Informative-Interactive.png",
+          "svgicon": "http://127.0.0.1:5500/src/assets/img/portfolio.svg"
+        },
+        {
+          "title": "Sales & Payments",
+          "price": "0",
+          "description": "For ecommerce sites that sell products or services",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Sales-Payments.png",
+          "svgicon": "http://127.0.0.1:5500/src/assets/img/eco-icon.svg"
+        }
+      ],
+      "3":[
+        {
+          "title": "Careers",
+          "price": "10",
+          "description": "Job listings and career information.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Careers.png"
+        },
+        {
+          "title": "Shop",
+          "price": "10",
+          "description": "An e-commerce page to sell your products.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/SHop.png"
+        },
+        {
+          "title": "Events",
+          "price": "13",
+          "description": "Information about upcoming events.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Events.png"
+        },
+        {
+          "title": "Portfolio",
+          "price": "10",
+          "description": "Examples of your previous work or projects.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Portfolio.png"
+        },
+        {
+          "title": "Terms of Service",
+          "price": "10",
+          "description": "The terms and conditions for using your site.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Terms-of-Service.png"
+        },
+        {
+          "title": "Privacy Policy",
+          "price": "10",
+          "description": "Your site's privacy policy details.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Privacy-Policy.png"
+        },
+        {
+          "title": "Gallery",
+          "price": "10",
+          "description": "A collection of images or videos.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Gallery.png"
+        },
+        {
+          "title": "Testimonials",
+          "price": "8",
+          "description": "Customer reviews and feedback.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Testimonials.png"
+        },
+        {
+          "title": "FAQ",
+          "price": "10",
+          "description": "Answers to frequently asked questions.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/FAQ.png"
+        },
+        {
+          "title": "Blog",
+          "price": "10",
+          "description": "A section for articles and updates.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Blog.png"
+        },
+        {
+          "title": "Products",
+          "price": "10",
+          "description": "Showcase the products you sell.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Products.png"
+        },
+        {
+          "title": "Contact Us",
+          "price": "10",
+          "description": "A page with contact information and a form.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Contact-Us.png"
+        },
+        {
+          "title": "About Us",
+          "price": "10",
+          "description": "Information about your company or organization.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/About-Us.png"
+        },
+        {
+          "title": "Service",
+          "price": "10",
+          "description": "Details of the services you offer.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Service.png"
+        },
+        {
+          "title": "Home",
+          "price": "10",
+          "description": "The main landing page introducing your site.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Home.png"
+        }
+      ],
+      "4a":[
+        {
+          "title": "Image Gallery",
+          "price": "0",
+          "description": "A gallery to showcase images.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Footer Widgets",
+          "price": "0",
+          "description": "Customizable widgets in the footer area",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Blog",
+          "price": "0",
+          "description": "A section for posting articles and updates.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Testimonial Slider",
+          "price": "0",
+          "description": "Display customer reviews in a slider format.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Search Functionality",
+          "price": "0",
+          "description": "Basic site search capability.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Newsletter Signup",
+          "price": "0",
+          "description": "A form for users to subscribe to your newsletter.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Social Media Links",
+          "price": "0",
+          "description": "Add links to your social media profiles.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Basic Map Integration",
+          "price": "0",
+          "description": "Embed a map showing your location.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Contact Form",
+          "price": "0",
+          "description": "A simple form for users to get in touch with you.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        }
+      ],
+
+      "4b":[
+        {
+          "title": "Third-Party Integrations",
+          "price": "500",
+          "description": "Connect your site to third-party services like Mailchimp, Constant Contact, Salesforce, and more.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Multilingual Support",
+          "price": "350",
+          "description": "Translate your site into multiple languages with WPML or Polylang.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Advanced Analytics",
+          "price": "200",
+          "description": "In-depth analytics and tracking features with Google Analytics or MonsterInsights.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Live Chat",
+          "price": "250",
+          "description": "Real-time chat support for your visitors using Tawk.to or LiveChat.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Custom Forms",
+          "price": "300",
+          "description": "Advanced form builder with conditional logic using Gravity Forms or WPForms.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Event Management",
+          "price": "300",
+          "description": "Manage and display upcoming events with booking options using Eventbrite or The Events Calendar.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Membership System",
+          "price": "300",
+          "description": "Create a membership area with exclusive content using MemberPress or Restrict Content Pro.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        },
+        {
+          "title": "Booking System",
+          "price": "200",
+          "description": "Allow users to book appointments or services online with tools like Calendly or Bookly.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/featureicon.svg"
+        }
+      ],
+    
+      "5":[
+        {
+          "title": "Deluxe",
+          "price": "0",
+          "description": "Clean and simple design focusing on essential elements and whitespace.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Futuristic-Style-1.png"
+        },
+        {
+          "title": "Modern",
+          "price": "0",
+          "description": "Clean and simple design focusing on essential elements and whitespace.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Modern-Style-1.png"
+        },
+        {
+          "title": "Corporate",
+          "price": "0",
+          "description": "Clean and simple design focusing on essential elements and whitespace.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Corporate-Style-1.png"
+        },
+        {
+          "title": "Futuristic",
+          "price": "0",
+          "description": "Modern and cutting-edge design with advanced features and sleek aesthetics.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Futuristic-Style.png"
+        },
+        {
+          "title": "Minimal",
+          "price": "0",
+          "description": "Clean and simple design focusing on essential elements and whitespace.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Modern-Style.png"
+        },
+        {
+          "title": "Classic",
+          "price": "0",
+          "description": "Timeless and elegant design with traditional elements and sophisticated layouts.\r\n\r\n\r\n\r\nDuration From: 3 Days",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/06/Corporate-Style.png"
+        }
+      ]  ,        
+
+      
+    
+      "6": [
+        {
+          "title": "News Updates",
+          "price": "0",
+          "description": "Highlight the latest news and updates in your field.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/News-Updates.png"
+        },
+        {
+          "title": "Interactive",
+          "price": "0",
+          "description": "Include quizzes, polls, and other interactive elements.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Interactive.png"
+        },
+        {
+          "title": "Portfolio",
+          "price": "0",
+          "description": "Showcase your work with project descriptions and visuals.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Portfolio-1.png"
+        },
+        {
+          "title": "Blog-Focused",
+          "price": "0",
+          "description": "Regularly updated articles and posts to engage your audience.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Blog-Focused.png"
+        },
+        {
+          "title": "User-Generated",
+          "price": "0",
+          "description": "Feature content created and submitted by your users.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/User-Generated.png"
+        },
+        {
+          "title": "Product Showcase",
+          "price": "0",
+          "description": "Display products with detailed descriptions and high-quality images.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Product-Showcase.png"
+        },
+        {
+          "title": "Mixed Media",
+          "price": "0",
+          "description": "Combine text, images, and videos for a balanced approach.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Mixed-Media.png"
+        },
+        {
+          "title": "Video-Centric",
+          "price": "0",
+          "description": "Highlight video content for dynamic and engaging experiences.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Video-Centric.png"
+        },
+        {
+          "title": "Visual",
+          "price": "0",
+          "description": "Emphasize images, graphics, and visual storytelling.",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Visual.png"
+        },
+        {
+          "title": "Text-Heavy",
+          "price": "0",
+          "description": "Focus on detailed articles and extensive written content..",
+          "image": "https://websitydigital.com/wp-content/uploads/2024/07/Text-Heavy.png"
+        }
+      ]
+    
+    }
+  }
+  

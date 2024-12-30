@@ -1,6 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import Images from "../assets/image"; // Ensure the path is correct
+import stepData from "../page.json"
+import { useNavigate } from "react-router-dom"; // Import useNavigate
+import Images from "../assets/image"; // Make sure the path is correct
 
 const StepOne = () => {
   const navigate = useNavigate(); // Initialize the useNavigate hook
@@ -63,57 +64,33 @@ const StepOne = () => {
 
             {/* Image Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-              <div
-                className="bg-white rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.SalesPayments}
-                  alt="Sales & Payments"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <img
-                      src={Images.EcoIcon}
-                      alt="Sales & Payments Icon"
-                      className="w-10 h-10 rounded-full object-cover"
-                    />
-                    <p className="text-left font-semibold text-sm text-gray-900 ml-2">
-                      Sales & Payments
-                    </p>
-                  </div>
-                  <p className="text-left text-zinc-600 font-normal text-sm pt-3">
-                    For ecommerce sites that sell products or services
-                  </p>
-                </div>
-              </div>
 
+            {stepData.steps["2"].map((step, index) => (
               <div
-                className="bg-white rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl"
-                onClick={toggleBorder}
-              >
-                <img
-                  src={Images.InformativeInteractive}
-                  alt="Informative & Interactive"
-                  className="mb-4 w-full object-cover rounded-xl"
-                />
-                <div className="p-4">
-                  <div className="relative flex flex-row items-center">
-                    <img
-                      src={Images.Portfolio}
-                      alt="Informative Icon"
-                      className="w-10 h-10 rounded-full object-cover"
-                    />
-                    <p className="text-left font-semibold text-sm text-gray-900 ml-2">
-                    Informative & Interactive
-                    </p>
-                  </div>
-                  <p className="text-left text-zinc-600 font-normal text-sm pt-3">
-                  For sites offering information, resources and other features
+              className="bg-white rounded-lg shadow-md cursor-pointer justify-center hover:border-blue-500 hover:border-2 hover:rounded-xl"
+              onClick={toggleBorder}
+            >
+              <img src={step.image} alt={step.title} className="mb-4 w-full object-cover rounded-xl" />
+
+              <div className="p-4">
+                <div className="relative flex flex-row items-center">
+                  <img
+                    src={step.svgicon}
+                    alt={step.title}
+                    className="w-10 h-10 rounded-full object-cover"
+                  />
+                  <p className="text-left font-semibold text-sm text-gray-900 ml-2">
+                    {step.title}
                   </p>
                 </div>
+                <p className="text-left text-zinc-600 font-normal text-sm pt-3">
+                  {step.description}
+                </p>
               </div>
+            </div>
+            ))}
+
+              
             </div>
           </div>
         </div>
